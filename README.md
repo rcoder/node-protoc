@@ -11,5 +11,5 @@ JS/TS Wrapper for [protoc]("https://github.com/protocolbuffers/protobuf")
 Build the project:
 
 ```bash
-yarn build
+pnpm build
 ```

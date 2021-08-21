@@ -24,7 +24,6 @@
     "glob": "^7.1.7",
     "got": "^11.8.2",
     "mkdirp": "^1.0.4",
-    "request": "^2.88.2",
     "rimraf": "^3.0.2",
     "unzipper": "^0.10.11",
     "vinyl": "^2.2.1"
@@ -35,7 +34,6 @@
     "@types/node": "^16.6.2",
     "@types/rimraf": "^3.0.2",
     "@types/unzipper": "^0.10.4",
-    "@types/uuid": "^8.3.1",
     "@types/vinyl": "^2.0.5",
     "@typescript-eslint/eslint-plugin": "^4.29.2",
     "@typescript-eslint/parser": "^4.29.2",
