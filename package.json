@@ -1,0 +1,56 @@
+{
+  "name": "node-protoc",
+  "version": "1.0.0",
+  "description": "A protoc wrapper for Node.",
+  "license": "GPL-3.0-only",
+  "sideEffects": false,
+  "type": "commonjs",
+  "module": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "export": [
+    "./dist/index.js"
+  ],
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "prettier --check . && eslint src/*.ts",
+    "postinstall": "node dist/postinstall.js"
+  },
+  "dependencies": {
+    "cuid": "^2.1.8",
+    "glob": "^7.1.7",
+    "got": "^11.8.2",
+    "mkdirp": "^1.0.4",
+    "request": "^2.88.2",
+    "rimraf": "^3.0.2",
+    "unzipper": "^0.10.11",
+    "vinyl": "^2.2.1"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.1.4",
+    "@types/mkdirp": "^1.0.2",
+    "@types/node": "^16.6.2",
+    "@types/rimraf": "^3.0.2",
+    "@types/unzipper": "^0.10.4",
+    "@types/uuid": "^8.3.1",
+    "@types/vinyl": "^2.0.5",
+    "@typescript-eslint/eslint-plugin": "^4.29.2",
+    "@typescript-eslint/parser": "^4.29.2",
+    "@verypossible/eslint-config": "^1.6.1",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-babel-module": "^5.3.1",
+    "eslint-import-resolver-node": "^0.3.6",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-import": "^2.24.1",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.3.2",
+    "tslib": "^2.3.1",
+    "typescript": "^4.3.5"
+  }
+}
