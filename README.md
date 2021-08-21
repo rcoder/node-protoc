@@ -13,3 +13,19 @@ Build the project:
 ```bash
 pnpm build
 ```
+
+Running protoc:
+
+Yarn 2:
+
+```bash
+yarn dlx node-protoc --version
+```
+
+Global install:
+
+```bash
+npm install -g node-protoc
+
+protoc --version
+```
