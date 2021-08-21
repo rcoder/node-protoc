@@ -6,8 +6,10 @@
   "sideEffects": false,
   "type": "commonjs",
   "module": "dist/index.d.ts",
-  "main": "dist/index.js",
-  "bin": "dist/cli.js",
+  "main": "./dist/index.js",
+  "bin": {
+    "protoc": "./dist/cli.js"
+  },
   "export": [
     "./dist/index.js"
   ],
