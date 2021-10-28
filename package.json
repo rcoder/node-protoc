@@ -1,6 +1,6 @@
 {
   "name": "node-protoc",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A protoc wrapper for Node.",
   "license": "GPL-3.0-only",
   "sideEffects": false,
