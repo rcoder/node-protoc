@@ -6,7 +6,7 @@ import { Entry, Parse } from 'unzipper';
 
 import { protocPath } from './protocPath';
 
-const protoVersion = "3.17.3";
+const protoVersion = "3.19.0";
 
 const releases: {
   platform:
