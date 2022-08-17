@@ -6,7 +6,7 @@ import { Entry, Parse } from 'unzipper';
 
 import { protocPath } from './protocPath';
 
-const protoVersion = "3.19.1";
+const protoVersion = "21.5";
 
 const releases: {
   platform:
@@ -65,7 +65,7 @@ const releases: {
   },
   {
     platform: "darwin",
-    arch: "x64",
+    arch: "arm64",
     url: `https://github.com/protocolbuffers/protobuf/releases/download/v${protoVersion}/protoc-${protoVersion}-osx-aarch_64.zip`,
   },
   // Windows
